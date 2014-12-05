@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Fri 05 Dec 2014 08:21:07 PM EET
+
+BeginCmp
+TimeStamp = /5481CEA9;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = BX2032;
+EndCmp
+
+BeginCmp
+TimeStamp = /5481CDCD;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = SJ2.5PC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5481CE88;
+Reference = P1;
+ValeurCmp = CONN_10;
+IdModule  = CONN-10-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5481CE79;
+Reference = P2;
+ValeurCmp = CONN_10;
+IdModule  = CONN-10-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5481CD91;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = TO92PN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5481CDA0;
+Reference = Q2;
+ValeurCmp = NPN;
+IdModule  = TO92PN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5481CDAF;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5481CDBE;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5481CEE6;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = SLIDE_SWITCH;
+EndCmp
+
+EndListe

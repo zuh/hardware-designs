@@ -1,0 +1,187 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:flashsnap-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "5 dec 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NPN Q1
+U 1 1 5481CD91
+P 5300 3350
+F 0 "Q1" H 5300 3200 50  0000 R CNN
+F 1 "NPN" H 5300 3500 50  0000 R CNN
+F 2 "~" H 5300 3350 60  0000 C CNN
+F 3 "~" H 5300 3350 60  0000 C CNN
+	1    5300 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN Q2
+U 1 1 5481CDA0
+P 5800 3350
+F 0 "Q2" H 5800 3200 50  0000 R CNN
+F 1 "NPN" H 5800 3500 50  0000 R CNN
+F 2 "~" H 5800 3350 60  0000 C CNN
+F 3 "~" H 5800 3350 60  0000 C CNN
+	1    5800 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5481CDAF
+P 5300 3900
+F 0 "R1" V 5380 3900 40  0000 C CNN
+F 1 "R" V 5307 3901 40  0000 C CNN
+F 2 "~" V 5230 3900 30  0000 C CNN
+F 3 "~" H 5300 3900 30  0000 C CNN
+	1    5300 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 5481CDBE
+P 5800 3900
+F 0 "R2" V 5880 3900 40  0000 C CNN
+F 1 "R" V 5807 3901 40  0000 C CNN
+F 2 "~" V 5730 3900 30  0000 C CNN
+F 3 "~" H 5800 3900 30  0000 C CNN
+	1    5800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BARREL_JACK CON1
+U 1 1 5481CDCD
+P 6700 2850
+F 0 "CON1" H 6700 3100 60  0000 C CNN
+F 1 "BARREL_JACK" H 6700 2650 60  0000 C CNN
+F 2 "" H 6700 2850 60  0000 C CNN
+F 3 "" H 6700 2850 60  0000 C CNN
+	1    6700 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_10 P2
+U 1 1 5481CE79
+P 5600 1900
+F 0 "P2" V 5550 1900 60  0000 C CNN
+F 1 "CONN_10" V 5650 1900 60  0000 C CNN
+F 2 "" H 5600 1900 60  0000 C CNN
+F 3 "" H 5600 1900 60  0000 C CNN
+	1    5600 1900
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_10 P1
+U 1 1 5481CE88
+P 5550 4700
+F 0 "P1" V 5500 4700 60  0000 C CNN
+F 1 "CONN_10" V 5600 4700 60  0000 C CNN
+F 2 "" H 5550 4700 60  0000 C CNN
+F 3 "" H 5550 4700 60  0000 C CNN
+	1    5550 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L BATTERY BT1
+U 1 1 5481CEA9
+P 4100 3200
+F 0 "BT1" H 4100 3400 50  0000 C CNN
+F 1 "BATTERY" H 4100 3010 50  0000 C CNN
+F 2 "~" H 4100 3200 60  0000 C CNN
+F 3 "~" H 4100 3200 60  0000 C CNN
+	1    4100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SWITCH_INV SW1
+U 1 1 5481CEE6
+P 4300 2500
+F 0 "SW1" H 4100 2650 50  0000 C CNN
+F 1 "SWITCH_INV" H 4150 2350 50  0000 C CNN
+F 2 "~" H 4300 2500 60  0000 C CNN
+F 3 "~" H 4300 2500 60  0000 C CNN
+	1    4300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3650 5300 3550
+Wire Wire Line
+	5800 4350 5800 4150
+Wire Wire Line
+	5800 3550 5800 3650
+Wire Wire Line
+	5600 3250 5600 2850
+Wire Wire Line
+	5600 2850 6400 2850
+Wire Wire Line
+	6400 2750 5100 2750
+Wire Wire Line
+	5100 2750 5100 3250
+Wire Wire Line
+	4800 2400 6050 2400
+Wire Wire Line
+	6050 2400 6050 2250
+Wire Wire Line
+	5500 2600 5500 3250
+Wire Wire Line
+	5150 2600 5150 2250
+Connection ~ 5150 2600
+Wire Wire Line
+	6400 2950 6150 2950
+Wire Wire Line
+	6150 2600 6150 3250
+Connection ~ 5500 2600
+Wire Wire Line
+	6150 3250 6000 3250
+Connection ~ 6150 2950
+Wire Wire Line
+	5300 4150 5300 4350
+Wire Wire Line
+	3800 2500 3800 3200
+Wire Wire Line
+	5000 3200 4400 3200
+Wire Wire Line
+	5000 2600 5000 3200
+Wire Wire Line
+	5000 2600 6150 2600
+$EndSCHEMATC
