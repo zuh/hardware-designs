@@ -1,0 +1,176 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:snowcap
+LIBS:button-shield-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "8 dec 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SW_PUSH SW1
+U 1 1 54858A72
+P 4500 2950
+F 0 "SW1" H 4650 3060 50  0000 C CNN
+F 1 "SW_PUSH" H 4500 2870 50  0000 C CNN
+F 2 "~" H 4500 2950 60  0000 C CNN
+F 3 "~" H 4500 2950 60  0000 C CNN
+	1    4500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L DUAL_SWITCH_INV SW2
+U 1 1 54858A81
+P 4900 4000
+F 0 "SW2" H 4700 4150 50  0000 C CNN
+F 1 "DUAL_SWITCH_INV" H 4750 3850 50  0000 C CNN
+F 2 "~" H 4900 4000 60  0000 C CNN
+F 3 "~" H 4900 4000 60  0000 C CNN
+	1    4900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 54858A90
+P 4550 3200
+F 0 "R1" V 4630 3200 40  0000 C CNN
+F 1 "R" V 4557 3201 40  0000 C CNN
+F 2 "~" V 4480 3200 30  0000 C CNN
+F 3 "~" H 4550 3200 30  0000 C CNN
+	1    4550 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R2
+U 1 1 54858A9F
+P 4550 3400
+F 0 "R2" V 4630 3400 40  0000 C CNN
+F 1 "R" V 4557 3401 40  0000 C CNN
+F 2 "~" V 4480 3400 30  0000 C CNN
+F 3 "~" H 4550 3400 30  0000 C CNN
+	1    4550 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_4 P1
+U 1 1 54858ADA
+P 3400 3550
+F 0 "P1" V 3350 3550 50  0000 C CNN
+F 1 "CONN_4" V 3450 3550 50  0000 C CNN
+F 2 "" H 3400 3550 60  0000 C CNN
+F 3 "" H 3400 3550 60  0000 C CNN
+	1    3400 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P2
+U 1 1 54858AE9
+P 7450 3550
+F 0 "P2" V 7400 3550 50  0000 C CNN
+F 1 "CONN_4" V 7500 3550 50  0000 C CNN
+F 2 "" H 7450 3550 60  0000 C CNN
+F 3 "" H 7450 3550 60  0000 C CNN
+	1    7450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 54858C54
+P 5150 3700
+F 0 "R4" V 5230 3700 40  0000 C CNN
+F 1 "R" V 5157 3701 40  0000 C CNN
+F 2 "~" V 5080 3700 30  0000 C CNN
+F 3 "~" H 5150 3700 30  0000 C CNN
+	1    5150 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 54858C63
+P 5150 3500
+F 0 "R3" V 5230 3500 40  0000 C CNN
+F 1 "R" V 5157 3501 40  0000 C CNN
+F 2 "~" V 5080 3500 30  0000 C CNN
+F 3 "~" H 5150 3500 30  0000 C CNN
+	1    5150 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 3400 4300 3400
+Wire Wire Line
+	3750 3500 4900 3500
+Wire Wire Line
+	3750 3700 3900 3700
+Wire Wire Line
+	3900 2950 3900 4000
+Wire Wire Line
+	3900 2950 4200 2950
+Wire Wire Line
+	3750 3600 4050 3600
+Wire Wire Line
+	4050 3200 4050 3700
+Wire Wire Line
+	4050 3200 4300 3200
+Wire Wire Line
+	4050 3700 4900 3700
+Connection ~ 4050 3600
+Wire Wire Line
+	3900 4000 4400 4000
+Connection ~ 3900 3700
+Wire Wire Line
+	4900 3400 4800 3400
+Wire Wire Line
+	4900 2950 4900 3400
+Wire Wire Line
+	4900 2950 4800 2950
+Wire Wire Line
+	4800 3200 4900 3200
+Connection ~ 4900 3200
+Wire Wire Line
+	5400 3500 5500 3500
+Wire Wire Line
+	5500 3500 5500 3900
+Wire Wire Line
+	5500 3900 5400 3900
+Wire Wire Line
+	5400 3700 5500 3700
+Connection ~ 5500 3700
+$EndSCHEMATC

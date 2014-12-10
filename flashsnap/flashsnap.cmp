@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Fri 05 Dec 2014 08:21:07 PM EET
+Cmp-Mod V01 Created by PcbNew date = Mon 08 Dec 2014 09:36:02 PM EET
 
 BeginCmp
 TimeStamp = /5481CEA9;
@@ -32,28 +32,28 @@ BeginCmp
 TimeStamp = /5481CD91;
 Reference = Q1;
 ValeurCmp = NPN;
-IdModule  = TO92PN;
+IdModule  = TO92PN-LARGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /5481CDA0;
 Reference = Q2;
 ValeurCmp = NPN;
-IdModule  = TO92PN;
+IdModule  = TO92PN-LARGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /5481CDAF;
 Reference = R1;
 ValeurCmp = R;
-IdModule  = R1;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /5481CDBE;
 Reference = R2;
 ValeurCmp = R;
-IdModule  = R1;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
