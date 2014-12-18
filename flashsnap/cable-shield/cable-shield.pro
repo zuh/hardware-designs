@@ -1,6 +1,13 @@
-update=Thu 18 Dec 2014 08:46:35 AM EET
+update=Thu 18 Dec 2014 08:44:25 AM EET
 version=1
 last_client=pcbnew
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../kicad
@@ -40,17 +47,10 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=snowcap
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1
+LibName31=/home/kvahlman/hacking/flyingfox/hardware-designs/kicad/snowcap
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=cable-shield.net
 UseCmpFile=1
 PadDrill="    0.600000"
 PadDrillOvalY="    0.600000"
@@ -86,4 +86,5 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=snowcap
-LibName18=logo_small
+LibName18=logo
+LibName19=logo_small

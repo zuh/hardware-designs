@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Mon 08 Dec 2014 08:17:11 PM EET
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Wed 17 Dec 2014 10:06:48 PM EET
 
 BeginCmp
-TimeStamp = /54858ADA;
+TimeStamp = /5491E0C0;
 Reference = P1;
-ValeurCmp = CONN_4;
-IdModule  = SIL-4;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
 EndCmp
 
 BeginCmp
-TimeStamp = /54858AE9;
+TimeStamp = /5491E0EA;
 Reference = P2;
-ValeurCmp = CONN_4;
-IdModule  = SIL-4;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
 EndCmp
 
 BeginCmp
@@ -24,20 +24,6 @@ EndCmp
 BeginCmp
 TimeStamp = /54858A9F;
 Reference = R2;
-ValeurCmp = R;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /54858C63;
-Reference = R3;
-ValeurCmp = R;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /54858C54;
-Reference = R4;
 ValeurCmp = R;
 IdModule  = R3;
 EndCmp
